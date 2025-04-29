@@ -1,0 +1,38 @@
+## Repositories
+
+Use to handle database
+
+## CRUD
+
+-- Create
+## Create One
+Model.create()
+
+## Create Many
+Model.createMany()
+
+-- Read
+## Find All
+Model.find()
+
+## Find One
+Model.findById()
+
+## Find by Query
+Model.findOne()
+
+-- Update
+## Update Many
+Model.updateMany()
+
+-- Patch
+## Update One
+Model.updateOne()
+
+-- Delete
+## Delete One
+Model.deleteOne()
+
+## Delete Many
+Model.deleteMany()
+

@@ -1,0 +1,4 @@
+## Config
+
+Use to handle configuration (jwt, cloudinary, etc)
+

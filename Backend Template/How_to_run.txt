@@ -1,0 +1,19 @@
+# Backend Template
+
+## Not all file can use (it depend on your project and they are example to understand)
+server.js 
+rest.http
+
+## Create
+npm init
+
+## Install
+npm i nodemon express dotenv mongoose cors http http-errors body-parser cookie-parser cloudinary multer moment socket.io node-cron jsonwebtoken bcrypt
+
+## Run
+"type": "module",
+"scripts": {
+  "dev": "nodemon server.js"
+},
+
+npm run devs

@@ -1,0 +1,25 @@
+## Routers
+
+Use to handle route
+
+## CRUD
+*middleware is optional (authentication, authorization, upload file)
+
+-- Read
+## Find All
+router.get("/", middleware, controller.findAll);
+
+## Find One
+router.get("/:id", middleware, controller.findById);
+
+-- Create
+## Create One
+router.post("/", middleware, controller.create);
+
+-- Update
+## Update One
+router.patch("/:id", middleware, controller.update);
+
+-- Delete
+## Delete One
+router.delete("/:id", middleware, controller.delete);

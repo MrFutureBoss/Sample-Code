@@ -1,0 +1,14 @@
+## Models
+
+## Properties
+type: String || Number || Boolean || Date || Array || Object || mongoose.Schema.Types.ObjectId -- use with ref: ExampleClass
+required: true || false
+unique: true || false
+trim: true || false
+index: true || false (index help function find data faster and unique should use index)
+enum: ["value1", "value2"] (limit value)
+max: 100 (limit value)
+min: 100 (limit value)
+default: 100 || "value" || new Date() || true (default value)
+## Timestamp
+timestamp: true || false (createAt and updateAt) --- add after call all properties

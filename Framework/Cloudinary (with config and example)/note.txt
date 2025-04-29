@@ -1,0 +1,4 @@
+# Cloudinary (with config and example)
+
+Cloudinary v2.6.0
+Multer v1.4.5
